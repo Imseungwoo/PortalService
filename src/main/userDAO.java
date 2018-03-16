@@ -15,7 +15,7 @@ public class userDAO {
         User user = new user();
         user.setId(resultSet.getInt("id"));
         user.setname(resultSet.getString("name"));
-        user.setPasswore(resultSet.getString("password"));
+        user.setPassword(resultSet.getString("password"));
         //자원을 해지
         resultSet.close();
         preparedStatement.close();
