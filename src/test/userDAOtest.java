@@ -4,7 +4,7 @@ import static org.hamcrest.MatchaerAssert.*;
 import static org.hamcrest.CoreMatchers.*;
 import org.junit.jupiter.api.Test;
 
-import java.sql.SQL Exception;
+import java.sql.SQLException;
 
 public class userDAOtest {
 
