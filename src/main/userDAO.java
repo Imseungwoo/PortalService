@@ -7,7 +7,7 @@ public class userDAO {
         //mysql driver load
         Class.forName("com.mysql.jbdc.Driver");
         //Connection 맺고
-        Connection connection = DriverManagerGetConnectionInspection("jdbc:mysql://localhost/jeju","jeju","jejupw");
+        Connection connection = DriverManagerGetConnectionInspection("jdbc:mysql://localhost/user","root","1111");
         //sql 작성하고
         PrepareStatement prepareStatement = connection.prepareStatement("select * from userinfo where id = ?");
         prepareStatement.setInt(id);
