@@ -14,7 +14,7 @@ public class userDAOtest {
         int id = 1;
         User user = userdao.get(id);
         assertThat(user.getId(), is(1));
-        assertThat(user.getName(), is(임승우));
-        assertThat(user.getPass(), is(1234));
+        assertThat(user.getName(), is("임승우"));
+        assertThat(user.getPass(), is("1234"));
     }
 }
